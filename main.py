@@ -1,43 +1,63 @@
-from utils.file_analysis import analyze_file
-from utils.logger import write_log
+# main.py
 
-def menu():
+def show_menu():
+    print("\n" + "=" * 40)
+    print("       CryptoLabX Toolkit")
+    print("=" * 40)
+    print("1. Encrypt")
+    print("2. Decrypt")
+    print("3. Attack")
+    print("4. Analyze")
+    print("5. Exit")
+    print("=" * 40)
+
+
+def encrypt():
+    print("\n[Encrypt]")
+    print("Coming Soon...")
+
+
+def decrypt():
+    print("\n[Decrypt]")
+    print("Coming Soon...")
+
+
+def attack():
+    print("\n[Attack]")
+    print("Coming Soon...")
+
+
+def analyze():
+    print("\n[Analyze]")
+    print("Coming Soon...")
+
+
+def main():
     while True:
-        print("\n==============================")
-        print("     CryptoLabX Toolkit")
-        print("==============================")
-        print("1. Encrypt")
-        print("2. Decrypt")
-        print("3. Attack")
-        print("4. Analyze Dataset")
-        print("5. Exit")
+        show_menu()
 
-        choice = input("Enter your choice: ")
-
-        write_log(choice)
+        choice = input("Enter your choice (1-5): ")
 
         if choice == "1":
-            print("\nEncrypt Module")
-            print("Coming Soon...")
+            encrypt()
 
         elif choice == "2":
-            print("\nDecrypt Module")
-            print("Coming Soon...")
+            decrypt()
 
         elif choice == "3":
-            print("\nAttack Module")
-            print("Coming Soon...")
+            attack()
 
         elif choice == "4":
-            filename = input("Enter dataset filename: ")
-            analyze_file(filename)
+            analyze()
 
         elif choice == "5":
             print("\nThank you for using CryptoLabX.")
+            print("Exiting...")
             break
 
         else:
-            print("\nInvalid Choice!")
+            print("\nInvalid choice! Please enter a number between 1 and 5.")
+
 
 if __name__ == "__main__":
-    menu()
+    main()
