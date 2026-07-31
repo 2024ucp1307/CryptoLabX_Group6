@@ -1,0 +1,2 @@
+Information security protects confidentiality,
+integrity, and availability of data.

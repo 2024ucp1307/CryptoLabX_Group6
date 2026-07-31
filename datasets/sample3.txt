@@ -1,0 +1,2 @@
+Computer networks connect devices together.
+Routers and switches enable communication.

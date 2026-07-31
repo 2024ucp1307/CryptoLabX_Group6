@@ -1,4 +1,6 @@
-# main.py
+from utils.file_analysis import analyze_file
+from utils.logger import write_log
+
 
 def show_menu():
     print("\n" + "=" * 40)
@@ -29,7 +31,9 @@ def attack():
 
 def analyze():
     print("\n[Analyze]")
-    print("Coming Soon...")
+
+    filename = input("Enter dataset filename: ")
+    analyze_file(filename)
 
 
 def main():
@@ -37,6 +41,9 @@ def main():
         show_menu()
 
         choice = input("Enter your choice (1-5): ")
+
+        # Log every menu selection
+        write_log(choice)
 
         if choice == "1":
             encrypt()

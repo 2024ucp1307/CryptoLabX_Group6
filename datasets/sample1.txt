@@ -1,0 +1,2 @@
+Cryptography is the science of protecting information.
+It is used in banking, communication, and cybersecurity.
