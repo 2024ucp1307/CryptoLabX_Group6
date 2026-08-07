@@ -24,8 +24,8 @@ Currently, the project provides the basic project structure, command-line interf
 
 | Name | Roll No. |
 |------|----------|
-| Your Name | XXXXXXX |
-| Teammate Name | XXXXXXX |
+| Raghunandan | 2024ucp1307 |
+| Harshil | 2024ucp1459 |
 
 ---
 
@@ -68,7 +68,7 @@ CryptoLabX/
 Clone the repository
 
 ```bash
-git clone <repository_link>
+git clone https://github.com/2024ucp1307/CryptoLabX_Group6
 ```
 
 Move into the project directory
@@ -136,7 +136,7 @@ outputs/logfile.txt
 GitHub Repository:
 
 ```
-https://github.com/<username>/<repository-name>
+https://github.com/2024ucp1307/CryptoLabX_Group6
 ```
 
 ---
