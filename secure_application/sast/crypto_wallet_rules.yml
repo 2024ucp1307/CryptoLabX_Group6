@@ -1,0 +1,27 @@
+rules:
+
+  - id: cpp-hardcoded-crypto-secret
+    languages:
+      - cpp
+    message: "Hardcoded secret detected. Secrets should not be stored directly in source code."
+    severity: ERROR
+    pattern: |
+      string $SECRET = "CryptoAdmin@123";
+
+  - id: cpp-password-information-leak
+    languages:
+      - cpp
+    message: "Sensitive password information is being printed to the console."
+    severity: ERROR
+    pattern: |
+      cout << "DEBUG: Password entered = " << $PASSWORD << "\n";
+
+  - id: cpp-transaction-input-validation
+    languages:
+      - cpp
+    message: "Transaction amount is used without validating that it is positive."
+    severity: WARNING
+    pattern: |
+      if ($AMOUNT <= wallets[$INDEX].balance) {
+        ...
+      }
