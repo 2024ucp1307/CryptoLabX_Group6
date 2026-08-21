@@ -1,0 +1,22 @@
+[
+    {
+        "id": "TC1",
+        "text": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
+        "actual_key": 7
+    },
+    {
+        "id": "TC2",
+        "text": "ATTACK AT DAWN",
+        "actual_key": 13
+    },
+    {
+        "id": "TC3",
+        "text": "CRYPTOGRAPHY AND NETWORK SECURITY",
+        "actual_key": 3
+    },
+    {
+        "id": "TC4",
+        "text": "KUBERNETES POD",
+        "actual_key": 18
+    }
+]

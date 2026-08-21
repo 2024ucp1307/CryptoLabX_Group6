@@ -1,0 +1,6 @@
+Test Case  | Actual Key | Dict Key   | Chi Key    | Dict Correct? | Chi Correct?
+--------------------------------------------------------------------------------
+TC1        | 7          | 7          | 7          | Yes           | Yes
+TC2        | 13         | 13         | 13         | Yes           | Yes
+TC3        | 3          | 3          | 3          | Yes           | Yes
+TC4        | 18         | 0          | 18         | No            | Yes
