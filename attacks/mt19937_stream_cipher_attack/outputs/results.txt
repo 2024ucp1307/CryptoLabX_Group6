@@ -1,0 +1,21 @@
+MT19937 STREAM CIPHER AND TOKEN ATTACK
+==================================================
+
+PART A: STREAM CIPHER
+----------------------------------------
+candidates: 2465
+plaintext: vnJVZfcVUcMDpAAAAAAAAAAAAAA
+ciphertext: e6b835e48aa00151d257e7021804c5c9923dbac80437a2301bf025
+original_seed: 2464
+recovered_seed: 2464
+verified: True
+
+PART B: TIMESTAMP TOKEN ATTACK
+----------------------------------------
+timestamp: 1793900838
+recovered_timestamp: 1793900838
+token: 82cf2dbca73d875b8c3576787bbcdd75
+candidates: 301
+verified: True
+start: 1793900538
+end: 1793901138

@@ -1,0 +1,10 @@
+OPERATING SYSTEM RANDOM NUMBER ANALYSIS
+============================================================
+
+       Source   Bytes  Chi-square  Byte p-value  Zero bits  One bits  One percentage  Bit p-value  Adjacent repeats  Repeated 16-byte blocks  Serial correlation    Runs    Runs Z  Runs p-value
+Linux urandom 1048576  253.325684      0.517851    4197185   4191423       49.965656     0.046692              4131                        0           -0.001435 4194348  0.022451      0.982088
+ OpenSSL rand 1048576  220.621094      0.941420    4193206   4195402       50.013089     0.448534              4051                        0            0.000711 4193566 -0.360211      0.718689
+
+STATISTICAL INTERPRETATION
+A p-value >= 0.05 means the test did not detect a significant deviation at the 5% level.
+It does not prove cryptographic security.

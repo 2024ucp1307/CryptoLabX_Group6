@@ -1,0 +1,13 @@
+MILLER-RABIN PRIME GENERATION
+=============================================
+Assigned bit length: 512
+Generated prime (hex): 0xf3ca7ef0818d4ac967ab912a97b86f32b8681a592b28b535ca3b4b4e4498741bddef038d206dd1a2bc1e444423b9e515b6d715218ec054094474b1eee749e65b
+Actual bit length: 512
+Candidates tested: 147
+Miller-Rabin rounds: 20
+Execution time: 0.184744 seconds
+
+VERIFICATION
+Bit length verification: PASSED
+Miller-Rabin verification: PASSED
+Independent SymPy verification: PASSED
